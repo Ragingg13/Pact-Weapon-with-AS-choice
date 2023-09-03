@@ -1,3 +1,5 @@
+local __util = require 'larian.util'
+
 function HasPactWeapon(entity, mainHand)
     local entity = entity or context.Source
     local weaponEntity = GetActiveWeapon(entity, true)
