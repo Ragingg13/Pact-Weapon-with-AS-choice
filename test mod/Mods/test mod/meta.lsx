@@ -9,13 +9,13 @@
                     <attribute id="Author" type="LSWString" value="CLV"/>  CHANGE THIS
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSWString" value="Changes to pact weapon binding to allow for stat choice"/> CHANGE THIS
-                    <attribute id="Folder" type="LSWString" value="test mod"/>  CHANGE THIS
+                    <attribute id="Folder" type="LSWString" value="pact_weapon_with_AS_choice"/>  CHANGE THIS
                     <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value=""/>
                     <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="FixedString" value="test mod"/>  CHANGE THIS
+                    <attribute id="Name" type="FixedString" value="pact_weapon_with_AS_choice"/>  CHANGE THIS
                     <attribute id="NumPlayers" type="uint8" value="4"/>
                     <attribute id="PhotoBooth" type="FixedString" value=""/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
