@@ -1,9 +1,0 @@
-function HasPactWeapon(entity, mainHand)
-    local entity = entity or context.Source
-    local weaponEntity = GetActiveWeapon(entity, true)
-    if weaponEntity.IsValid then
-        result = Character(entity) & (HasStatus('PACT_BLADE', weaponEntity) or HasStatus('CL_PACT_BLADE_STR', weaponEntity) or HasStatus('CL_PACT_BLADE_DEX', weaponEntity) or HasStatus('CL_PACT_BLADE_INT', weaponEntity) or HasStatus('CL_PACT_BLADE_WIS', weaponEntity) or HasStatus('CL_PACT_BLADE_CON', weaponEntity))
-        return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
-    end
-    return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
-end
